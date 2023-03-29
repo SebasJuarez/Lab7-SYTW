@@ -1,0 +1,61 @@
+.body_css {
+  background-color: black;
+}
+
+.title_css {
+  color: brown;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-shadow: 1px 1px gold;
+}
+
+li {
+  float: left;
+}
+
+.nav_element {
+  display: block;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.nav_element:hover {
+  color: rgb(143, 143, 143);
+  background-color: rgb(33, 33, 33);
+}
+
+.navbar_ul_css {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar_css {
+  margin: 15px;
+}
+
+.background_css {
+  width: 160%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.bg-image-1 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 0;
+     object-position: 50% 0;
+}
+
+.new-book-div {
+  position: relative;
+  left: 25%;
+  animation-name: movement;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
