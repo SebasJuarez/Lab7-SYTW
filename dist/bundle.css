@@ -11,11 +11,55 @@
 }
 
 .title_css{
-    color: #ffffff;
+    color: black;
     margin-left: 100px;
     margin-right: 100px;
-    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(124, 78, 78);
     text-align: justify;
+    background-color: white;
+}
+
+h2{
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 30px;
+}
+
+.Bienvenida{
+  animation-name: myanimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    transform: translateX(0);
+  }
+  33.34% {
+    transform: translateX(50px);
+  }
+  66.68% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+  
+}
+
+p{
+  text-align: center;
+  color:#fff;
+  position: relative;
+  top: 40px;
+}
+.imagen{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 50px;
+  left: 370px;
 }
 
 li{
@@ -1186,7 +1230,9 @@ progress {
   }
   .col-md-3 {
     flex: 0 0 auto;
-    width: 20%;
+    position: relative;
+    left: 40px;
+    width: 30%;
   }
   .col-md-4 {
     flex: 0 0 auto;
